@@ -39,7 +39,7 @@ rule compare_genomes:
 rule plot_genomes:
     input:
         cmp = "output/cmp/all.cmp",
-        labels = "output/all.cmp.labels.txt"
+        labels = "output/cmp/all.cmp.labels.txt"
     output:
         "output/plots/all.cmp.matrix.png",
         "output/plots/all.cmp.hist.png",
